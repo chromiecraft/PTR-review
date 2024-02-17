@@ -1,6 +1,6 @@
 name: Tempest Keep raid report
 description: File a PTR test raid report
-title: "[PTR Raid report - Tempest Keep]: "
+title: "[PTR Raid report - Tempest Keep]: YOUR_GUILD_NAME_HERE"
 labels: ["raid", "PTR", "tuning", "tempest", "keep"]
 projects: ["master"]
 body:
