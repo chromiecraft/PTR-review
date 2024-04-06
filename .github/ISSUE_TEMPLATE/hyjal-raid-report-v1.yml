@@ -1,0 +1,154 @@
+name: Battle for Mount Hyjal raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - Mount Hyjal]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "tuning", "battle", "hyjal"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-1
+    attributes:
+      label: Mechanics comments on Rage Winterchill
+      description: Give us your overall comments on the mechanics that Rage Winterchill had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-1
+    attributes:
+      label: Tuning comments on Rage Winterchill
+      description: Give us your overall comments on the tuning that Rage Winterchill had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-2
+    attributes:
+      label: Mechanics comments on Anetheron
+      description: Give us your overall comments on the mechanics that Anetheron had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-2
+    attributes:
+      label: Tuning comments on Anetheron
+      description: Give us your overall comments on the tuning that Anetheron had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-3
+    attributes:
+      label: Mechanics comments on Kaz'rogal
+      description: Give us your overall comments on the mechanics that Kaz'rogal had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-3
+    attributes:
+      label: Tuning comments on Kaz'rogal
+      description: Give us your overall comments on the tuning that Kaz'rogal had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-4
+    attributes:
+      label: Mechanics comments on Azgalor
+      description: Give us your overall comments on the mechanics that Azgalor had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-4
+    attributes:
+      label: Tuning comments on Azgalor
+      description: Give us your overall comments on the tuning that Azgalor had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-5
+    attributes:
+      label: Mechanics comments on Archimonde
+      description: Give us your overall comments on the mechanics that Archimonde had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-5
+    attributes:
+      label: Tuning comments on Archimonde
+      description: Give us your overall comments on the tuning that Archimonde. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
