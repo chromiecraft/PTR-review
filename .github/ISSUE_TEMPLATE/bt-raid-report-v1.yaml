@@ -1,0 +1,218 @@
+name: The Black Temple raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - The Black Temple]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "tuning", "black", "temple"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-1
+    attributes:
+      label: Mechanics comments on High Warlord Najentus
+      description: Give us your overall comments on the mechanics that High Warlord Najentus had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-1
+    attributes:
+      label: Tuning comments on High Warlord Najentus
+      description: Give us your overall comments on the tuning that High Warlord Najentus had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-2
+    attributes:
+      label: Mechanics comments on Supremus
+      description: Give us your overall comments on the mechanics that Supremus had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-2
+    attributes:
+      label: Tuning comments on Supremus
+      description: Give us your overall comments on the tuning that Supremus had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-3
+    attributes:
+      label: Mechanics comments on Shade of Akama
+      description: Give us your overall comments on the mechanics that Shade of Akama had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-3
+    attributes:
+      label: Tuning comments on Shade of Akama
+      description: Give us your overall comments on the tuning that Shade of Akama had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-4
+    attributes:
+      label: Mechanics comments on Teron Gorefiend
+      description: Give us your overall comments on the mechanics that Teron Gorefiend had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-4
+    attributes:
+      label: Tuning comments on Teron Gorefiend
+      description: Give us your overall comments on the tuning that Teron Gorefiend had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-5
+    attributes:
+      label: Mechanics comments on Gurtogg Bloodboil
+      description: Give us your overall comments on the mechanics that Gurtogg Bloodboil had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-5
+    attributes:
+      label: Tuning comments on Gurtogg Bloodboil
+      description: Give us your overall comments on the tuning that Gurtogg Bloodboil. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-6
+    attributes:
+      label: Mechanics comments on Reliquary of Souls
+      description: Give us your overall comments on the mechanics that Reliquary of Souls had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-6
+    attributes:
+      label: Tuning comments on Reliquary of Souls
+      description: Give us your overall comments on the tuning that Reliquary of Souls. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-7
+    attributes:
+      label: Mechanics comments on Mother Shahraz
+      description: Give us your overall comments on the mechanics that Mother Shahraz had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-7
+    attributes:
+      label: Tuning comments on Mother Shahraz
+      description: Give us your overall comments on the tuning that Mother Shahraz. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-8
+    attributes:
+      label: Mechanics comments on The Illidari Council
+      description: Give us your overall comments on the mechanics that The Illidari Council had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-8
+    attributes:
+      label: Tuning comments on The Illidari Council
+      description: Give us your overall comments on the tuning that The Illidari Council. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-9
+    attributes:
+      label: Mechanics comments on Illidan Stormrage
+      description: Give us your overall comments on the mechanics that Illidan Stormrage had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-9
+    attributes:
+      label: Tuning comments on Illidan Stormrage
+      description: Give us your overall comments on the tuning that Illidan Stormrage. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
