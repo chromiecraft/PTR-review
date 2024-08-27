@@ -32,10 +32,10 @@ UPDATE `creature_template` SET `HealthModifier`=3*1.4 WHERE `entry`=23469; -- En
 UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=22947; -- Mother Shahraz
 
 -- Illidari Council
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22949; -- Gathios the Shatterer
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22950; -- High Nethermancer Zerevor
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22951; -- Lady Malande
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22952; -- Veras Darkshadow
+UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22949; -- Gathios the Shatterer
+UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22950; -- High Nethermancer Zerevor
+UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22951; -- Lady Malande
+UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22952; -- Veras Darkshadow
 UPDATE `creature_template` SET `HealthModifier`=3.5*700 WHERE `entry`=23426; -- The Illidari Council
 
 -- Illidan
@@ -122,13 +122,15 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 (564, 0, 0.75, 0.75, 1.43, 1.32, 1, 'The Black Temple');
 
 -- overriden and nerfed spells thanks to Jedbouk mostly
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 40327, 41303, 41360, 40827, 42005);
+DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 40314, 40175, 40175, 41303, 41360, 40827, 42005);
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(39878, 0, 1, 1, 'Black Temple - Najentus - Tidal Burst Effect'),
-(40327, 0, 1, 1, 'Black Temple - Shadowy Construct - Atrophy'),
-(41303, 0, 1, 1, 'Black Temple - Reliquary of the Lost - Essence of Suffering - Soul Drain'),
-(41360, 0, 1, 1, 'Black Temple - Promenade Sentinel - Arcane charge'), -- may not work
-(40827, 0, 1, 1, 'Black Temple - Mother Shahrazh - Sinful Beam'),
-(42005, 0, 1, 1, 'Black Temple - Gurtogg Bloodboil - Bloodboil');
+(39878, 564, 1, 1, 'Black Temple - Najentus - Tidal Burst Effect'),
+(40314, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Volley'),
+(40175, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Chains'),
+(40157, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Lance'),
+(41303, 564, 1, 1, 'Black Temple - Reliquary of the Lost - Essence of Suffering - Soul Drain'),
+(41360, 564, 1, 1, 'Black Temple - Promenade Sentinel - Arcane charge'), -- may not work
+(40827, 564, 1, 1, 'Black Temple - Mother Shahrazh - Sinful Beam'),
+(42005, 564, 1, 1, 'Black Temple - Gurtogg Bloodboil - Bloodboil');
 
 
