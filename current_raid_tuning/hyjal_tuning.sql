@@ -1,3 +1,5 @@
+-- NOTE: the health values are likely currently not accurate for the live server as the nerf was applied and this file not updated
+-- finding the new values needs some work. I will update this comment when that is fixed
 -- friendly alliance
 UPDATE `creature_template` SET `HealthModifier`=1.5*6 WHERE `entry`=17919; -- Alliance Footman
 UPDATE `creature_template` SET `HealthModifier`=1.5*6 WHERE `entry`=17921; -- Alliance Rifleman
@@ -60,11 +62,10 @@ UPDATE `creature_template` SET `HealthModifier`=3*24.5 WHERE `entry`=17864; -- L
 -- archimonde
 UPDATE `creature_template` SET `HealthModifier`=4*525 WHERE `entry`=17968; -- Archimonde
 
-
--- Overall buffs
+-- Overall buffs (Updated with the values from the manual nerf)
 DELETE FROM `zone_difficulty_info` WHERE `MapID`= 534;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
-(534, 0, 0.75, 0.75, 1.48, 1.35, 1, 'The Battle For Mount Hyjal');
+(534, 0, 0.85, 0.85, 1.35, 1.2, 1, 'The Battle For Mount Hyjal');
 
 -- here we can override specific spells to make sure we have no 1 shot mechanics
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (31249, 31250, 31304, 31341, 31944,  31608);
