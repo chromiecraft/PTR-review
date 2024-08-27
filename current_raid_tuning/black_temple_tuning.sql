@@ -32,10 +32,10 @@ UPDATE `creature_template` SET `HealthModifier`=3*1.4 WHERE `entry`=23469; -- En
 UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=22947; -- Mother Shahraz
 
 -- Illidari Council
-UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22949; -- Gathios the Shatterer
-UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22950; -- High Nethermancer Zerevor
-UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22951; -- Lady Malande
-UPDATE `creature_template` SET `HealthModifier`=1*175 WHERE `entry`=22952; -- Veras Darkshadow
+UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22949; -- Gathios the Shatterer
+UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22950; -- High Nethermancer Zerevor
+UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22951; -- Lady Malande
+UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22952; -- Veras Darkshadow
 UPDATE `creature_template` SET `HealthModifier`=3.5*700 WHERE `entry`=23426; -- The Illidari Council
 
 -- Illidan
