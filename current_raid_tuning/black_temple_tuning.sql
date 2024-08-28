@@ -40,7 +40,7 @@ UPDATE `creature_template` SET `HealthModifier`=3.5*700 WHERE `entry`=23426; -- 
 
 -- Illidan
 UPDATE `creature_template` SET `HealthModifier`=3.5*50 WHERE `entry`=23089; -- Akama
-UPDATE `creature_template` SET `HealthModifier`=4*560 WHERE `entry`=22917; -- Illidan Stormrage
+UPDATE `creature_template` SET `HealthModifier`=3.2*560 WHERE `entry`=22917; -- Illidan Stormrage
 UPDATE `creature_template` SET `HealthModifier`=3.5*2.1 WHERE `entry`=23375; -- Shadow Demon
 UPDATE `creature_template` SET `HealthModifier`=3*10.5 WHERE `entry`=23197; -- Maiev Shadowsong
 
