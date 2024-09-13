@@ -131,6 +131,7 @@ INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `
 (41303, 564, 1, 1, 'Black Temple - Reliquary of the Lost - Essence of Suffering - Soul Drain'),
 (41360, 564, 1, 1, 'Black Temple - Promenade Sentinel - Arcane charge'), -- may not work
 (40827, 564, 1, 1, 'Black Temple - Mother Shahrazh - Sinful Beam'),
+(40871, 564, 1, 1, 'Black Temple - Mother Shahraz - Fatal Attraction'),
 (42005, 564, 1, 1, 'Black Temple - Gurtogg Bloodboil - Bloodboil');
 
 
