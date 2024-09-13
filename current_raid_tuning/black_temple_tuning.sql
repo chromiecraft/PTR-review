@@ -28,7 +28,7 @@ UPDATE `creature_template` SET `HealthModifier`=3.5*280 WHERE `entry`=23419; -- 
 UPDATE `creature_template` SET `HealthModifier`=3.5*280 WHERE `entry`=23420; -- Essence of Anger
 UPDATE `creature_template` SET `HealthModifier`=3*1.4 WHERE `entry`=23469; -- Enslaved Soul
 
--- Mother Shazraz
+-- Mother Shahraz
 UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=22947; -- Mother Shahraz
 
 -- Illidari Council
