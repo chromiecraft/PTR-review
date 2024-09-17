@@ -7,25 +7,25 @@ UPDATE `creature_template` SET `HealthModifier`=3.5*420 WHERE `entry`=22898; -- 
 -- Shade of Akama
 UPDATE `creature_template` SET `HealthModifier`=3.5*92.4 WHERE `entry`=22841; -- Shade of Akama
 UPDATE `creature_template` SET `HealthModifier`=3.5*165 WHERE `entry`=23191; -- Akama
-UPDATE `creature_template` SET `HealthModifier`=3*17.5 WHERE `entry`=23421; -- Ashtongue Channeler
-UPDATE `creature_template` SET `HealthModifier`=3*14 WHERE `entry`=23215; -- Ashtongue Sorcerer
-UPDATE `creature_template` SET `HealthModifier`=3*8.4 WHERE `entry`=23216; -- Ashtongue Defender
-UPDATE `creature_template` SET `HealthModifier`=3*2.8 WHERE `entry`=23318; -- Ashtongue Rogue
-UPDATE `creature_template` SET `HealthModifier`=3*2.8 WHERE `entry`=23523; -- Ashtongue Elementalist
-UPDATE `creature_template` SET `HealthModifier`=3*2.8 WHERE `entry`=23524; -- Ashtongue Spiritbinder
+UPDATE `creature_template` SET `HealthModifier`=2*17.5 WHERE `entry`=23421; -- Ashtongue Channeler
+UPDATE `creature_template` SET `HealthModifier`=2*14 WHERE `entry`=23215; -- Ashtongue Sorcerer
+UPDATE `creature_template` SET `HealthModifier`=2*8.4 WHERE `entry`=23216; -- Ashtongue Defender
+UPDATE `creature_template` SET `HealthModifier`=2*2.8 WHERE `entry`=23318; -- Ashtongue Rogue
+UPDATE `creature_template` SET `HealthModifier`=2*2.8 WHERE `entry`=23523; -- Ashtongue Elementalist
+UPDATE `creature_template` SET `HealthModifier`=2*2.8 WHERE `entry`=23524; -- Ashtongue Spiritbinder
 
 -- Teron Gorefiend
-UPDATE `creature_template` SET `HealthModifier`=3.5*577.5 WHERE `entry`=22871; -- Teron Gorefiend
+UPDATE `creature_template` SET `HealthModifier`=2.75*577.5 WHERE `entry`=22871; -- Teron Gorefiend
 UPDATE `creature_template` SET `HealthModifier`=3*0.7 WHERE `entry`=23123; -- Doom Blossom
 
 -- Gurtogg Bloodboil
-UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=22948; -- Gurtogg Bloodboil
+UPDATE `creature_template` SET `HealthModifier`=2.75*525 WHERE `entry`=22948; -- Gurtogg Bloodboil
 
 -- Reliquary of the Lost
-UPDATE `creature_template` SET `HealthModifier`=3.5*700 WHERE `entry`=22856; -- Reliquary of the Lost
-UPDATE `creature_template` SET `HealthModifier`=3.5*210 WHERE `entry`=23418; -- Essence of Suffering
-UPDATE `creature_template` SET `HealthModifier`=3.5*280 WHERE `entry`=23419; -- Essence of Desire
-UPDATE `creature_template` SET `HealthModifier`=3.5*280 WHERE `entry`=23420; -- Essence of Anger
+UPDATE `creature_template` SET `HealthModifier`=3*700 WHERE `entry`=22856; -- Reliquary of the Lost
+UPDATE `creature_template` SET `HealthModifier`=3*210 WHERE `entry`=23418; -- Essence of Suffering
+UPDATE `creature_template` SET `HealthModifier`=3*280 WHERE `entry`=23419; -- Essence of Desire
+UPDATE `creature_template` SET `HealthModifier`=3*280 WHERE `entry`=23420; -- Essence of Anger
 UPDATE `creature_template` SET `HealthModifier`=3*1.4 WHERE `entry`=23469; -- Enslaved Soul
 
 -- Mother Shahraz
@@ -119,12 +119,13 @@ UPDATE `creature_template` SET `HealthModifier`=1.5*0.91 WHERE `entry`=23411; --
 -- Overall buffs
 DELETE FROM `zone_difficulty_info` WHERE `MapID`= 564;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
-(564, 0, 0.75, 0.75, 1.43, 1.32, 1, 'The Black Temple');
+(564, 0, 0.75, 0.75, 1.35, 1.30, 1, 'The Black Temple');
 
 -- overriden and nerfed spells thanks to Jedbouk mostly
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 40314, 40175, 40175, 41303, 41360, 40827, 40871, 42005);
+DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 42052, 40314, 40175, 40175, 41303, 41360, 40827, 40871, 42005);
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
 (39878, 564, 1, 1, 'Black Temple - Najentus - Tidal Burst Effect'),
+(42052, 564, 1, 1, 'Black Temple - Supremus - Volcanic Geyser'),
 (40314, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Volley'),
 (40175, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Chains'),
 (40157, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Lance'),
