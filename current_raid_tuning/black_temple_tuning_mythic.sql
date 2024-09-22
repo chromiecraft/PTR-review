@@ -16,11 +16,11 @@ UPDATE `creature_template` SET `HealthModifier`=3*2.8 WHERE `entry`=23523; -- As
 UPDATE `creature_template` SET `HealthModifier`=3*2.8 WHERE `entry`=23524; -- Ashtongue Spiritbinder
 
 -- Teron Gorefiend
-UPDATE `creature_template` SET `HealthModifier`=3.5*577.5 WHERE `entry`=22871; -- Teron Gorefiend
+UPDATE `creature_template` SET `HealthModifier`=3.2*577.5 WHERE `entry`=22871; -- Teron Gorefiend
 UPDATE `creature_template` SET `HealthModifier`=3*0.7 WHERE `entry`=23123; -- Doom Blossom
 
 -- Gurtogg Bloodboil
-UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=22948; -- Gurtogg Bloodboil
+UPDATE `creature_template` SET `HealthModifier`=3.2*525 WHERE `entry`=22948; -- Gurtogg Bloodboil
 
 -- Reliquary of the Lost
 UPDATE `creature_template` SET `HealthModifier`=3.5*700 WHERE `entry`=22856; -- Reliquary of the Lost
@@ -120,7 +120,7 @@ UPDATE `creature_template` SET `HealthModifier`=1.5*0.91 WHERE `entry`=23411; --
 -- Overall buffs
 DELETE FROM `zone_difficulty_info` WHERE `MapID`= 564;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
-(564, 0, 0.75, 0.75, 1.43, 1.32, 1, 'The Black Temple');
+(564, 0, 0.75, 0.75, 1.39, 1.32, 1, 'The Black Temple');
 
 -- overriden and nerfed spells thanks to Jedbouk mostly
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 40314, 40175, 40175, 41303, 41360, 40827, 40871, 42005);
