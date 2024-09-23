@@ -22,10 +22,10 @@ UPDATE `creature_template` SET `HealthModifier`=3*0.7 WHERE `entry`=23123; -- Do
 UPDATE `creature_template` SET `HealthModifier`=3.2*525 WHERE `entry`=22948; -- Gurtogg Bloodboil
 
 -- Reliquary of the Lost
-UPDATE `creature_template` SET `HealthModifier`=3.5*700 WHERE `entry`=22856; -- Reliquary of the Lost
-UPDATE `creature_template` SET `HealthModifier`=3.5*210 WHERE `entry`=23418; -- Essence of Suffering
-UPDATE `creature_template` SET `HealthModifier`=3.5*280 WHERE `entry`=23419; -- Essence of Desire
-UPDATE `creature_template` SET `HealthModifier`=3.5*280 WHERE `entry`=23420; -- Essence of Anger
+UPDATE `creature_template` SET `HealthModifier`=3*700 WHERE `entry`=22856; -- Reliquary of the Lost
+UPDATE `creature_template` SET `HealthModifier`=3*210 WHERE `entry`=23418; -- Essence of Suffering
+UPDATE `creature_template` SET `HealthModifier`=2*280 WHERE `entry`=23419; -- Essence of Desire
+UPDATE `creature_template` SET `HealthModifier`=3*280 WHERE `entry`=23420; -- Essence of Anger
 UPDATE `creature_template` SET `HealthModifier`=3*1.4 WHERE `entry`=23469; -- Enslaved Soul
 
 -- Mother Shahraz
