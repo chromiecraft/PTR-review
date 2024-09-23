@@ -1,4 +1,3 @@
--- CURRENTLY WIP
 -- High Warlord Naj'entus
 UPDATE `creature_template` SET `HealthModifier`=3.5*350 WHERE `entry`=22887; -- High Warlord Naj'entus
 
