@@ -1,11 +1,11 @@
 -- High Warlord Naj'entus
-UPDATE `creature_template` SET `HealthModifier`=3.5*350 WHERE `entry`=22887; -- High Warlord Naj'entus
+UPDATE `creature_template` SET `HealthModifier`=2.5*350 WHERE `entry`=22887; -- High Warlord Naj'entus
 
 -- Supremus
-UPDATE `creature_template` SET `HealthModifier`=3.5*420 WHERE `entry`=22898; -- Supremus
+UPDATE `creature_template` SET `HealthModifier`=2.5*420 WHERE `entry`=22898; -- Supremus
 
 -- Shade of Akama
-UPDATE `creature_template` SET `HealthModifier`=3.5*92.4 WHERE `entry`=22841; -- Shade of Akama
+UPDATE `creature_template` SET `HealthModifier`=2.5*92.4 WHERE `entry`=22841; -- Shade of Akama
 UPDATE `creature_template` SET `HealthModifier`=3.5*165 WHERE `entry`=23191; -- Akama
 UPDATE `creature_template` SET `HealthModifier`=2*17.5 WHERE `entry`=23421; -- Ashtongue Channeler
 UPDATE `creature_template` SET `HealthModifier`=2*14 WHERE `entry`=23215; -- Ashtongue Sorcerer
@@ -15,32 +15,32 @@ UPDATE `creature_template` SET `HealthModifier`=2*2.8 WHERE `entry`=23523; -- As
 UPDATE `creature_template` SET `HealthModifier`=2*2.8 WHERE `entry`=23524; -- Ashtongue Spiritbinder
 
 -- Teron Gorefiend
-UPDATE `creature_template` SET `HealthModifier`=2.75*577.5 WHERE `entry`=22871; -- Teron Gorefiend
+UPDATE `creature_template` SET `HealthModifier`=2*577.5 WHERE `entry`=22871; -- Teron Gorefiend
 UPDATE `creature_template` SET `HealthModifier`=3*0.7 WHERE `entry`=23123; -- Doom Blossom
 
 -- Gurtogg Bloodboil
-UPDATE `creature_template` SET `HealthModifier`=2.75*525 WHERE `entry`=22948; -- Gurtogg Bloodboil
+UPDATE `creature_template` SET `HealthModifier`=2*525 WHERE `entry`=22948; -- Gurtogg Bloodboil
 
 -- Reliquary of the Lost
-UPDATE `creature_template` SET `HealthModifier`=3*700 WHERE `entry`=22856; -- Reliquary of the Lost
-UPDATE `creature_template` SET `HealthModifier`=3*210 WHERE `entry`=23418; -- Essence of Suffering
-UPDATE `creature_template` SET `HealthModifier`=3*280 WHERE `entry`=23419; -- Essence of Desire
-UPDATE `creature_template` SET `HealthModifier`=3*280 WHERE `entry`=23420; -- Essence of Anger
+UPDATE `creature_template` SET `HealthModifier`=2*700 WHERE `entry`=22856; -- Reliquary of the Lost
+UPDATE `creature_template` SET `HealthModifier`=2*210 WHERE `entry`=23418; -- Essence of Suffering
+UPDATE `creature_template` SET `HealthModifier`=1*280 WHERE `entry`=23419; -- Essence of Desire
+UPDATE `creature_template` SET `HealthModifier`=2*280 WHERE `entry`=23420; -- Essence of Anger
 UPDATE `creature_template` SET `HealthModifier`=3*1.4 WHERE `entry`=23469; -- Enslaved Soul
 
 -- Mother Shahraz
-UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=22947; -- Mother Shahraz
+UPDATE `creature_template` SET `HealthModifier`=2.5*525 WHERE `entry`=22947; -- Mother Shahraz
 
 -- Illidari Council
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22949; -- Gathios the Shatterer
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22950; -- High Nethermancer Zerevor
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22951; -- Lady Malande
-UPDATE `creature_template` SET `HealthModifier`=3.5*175 WHERE `entry`=22952; -- Veras Darkshadow
-UPDATE `creature_template` SET `HealthModifier`=3.5*700 WHERE `entry`=23426; -- The Illidari Council
+UPDATE `creature_template` SET `HealthModifier`=2.5*175 WHERE `entry`=22949; -- Gathios the Shatterer
+UPDATE `creature_template` SET `HealthModifier`=2.5*175 WHERE `entry`=22950; -- High Nethermancer Zerevor
+UPDATE `creature_template` SET `HealthModifier`=2.5*175 WHERE `entry`=22951; -- Lady Malande
+UPDATE `creature_template` SET `HealthModifier`=2.5*175 WHERE `entry`=22952; -- Veras Darkshadow
+UPDATE `creature_template` SET `HealthModifier`=2.5*700 WHERE `entry`=23426; -- The Illidari Council
 
 -- Illidan
 UPDATE `creature_template` SET `HealthModifier`=3.5*50 WHERE `entry`=23089; -- Akama
-UPDATE `creature_template` SET `HealthModifier`=3.2*560 WHERE `entry`=22917; -- Illidan Stormrage
+UPDATE `creature_template` SET `HealthModifier`=2.7*560 WHERE `entry`=22917; -- Illidan Stormrage
 UPDATE `creature_template` SET `HealthModifier`=3.5*2.1 WHERE `entry`=23375; -- Shadow Demon
 UPDATE `creature_template` SET `HealthModifier`=3*10.5 WHERE `entry`=23197; -- Maiev Shadowsong
 
