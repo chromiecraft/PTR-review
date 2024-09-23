@@ -123,7 +123,7 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 (564, 0, 0.75, 0.75, 1.39, 1.32, 1, 'The Black Temple');
 
 -- overriden and nerfed spells thanks to Jedbouk mostly
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 40314, 40175, 40175, 41303, 41360, 40827, 40871, 42005);
+DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 40314, 40175, 40175, 41303, 41360, 40827, 40869, 40870, 40871, 41001, 42005);
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
 (39878, 564, 1, 1, 'Black Temple - Najentus - Tidal Burst Effect'),
 (40314, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Volley'),
@@ -132,5 +132,8 @@ INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `
 (41303, 564, 1, 1, 'Black Temple - Reliquary of the Lost - Essence of Suffering - Soul Drain'),
 (41360, 564, 1, 1, 'Black Temple - Promenade Sentinel - Arcane charge'), -- may not work
 (40827, 564, 1, 1, 'Black Temple - Mother Shahraz - Sinful Beam'),
+(40869, 564, 1, 1, 'Black Temple - Mother Shahraz - Fatal Attraction'),
+(40870, 564, 1, 1, 'Black Temple - Mother Shahraz - Fatal Attraction'),
 (40871, 564, 1, 1, 'Black Temple - Mother Shahraz - Fatal Attraction'),
+(41001, 564, 1, 1, 'Black Temple - Mother Shahraz - Fatal Attraction'),
 (42005, 564, 1, 1, 'Black Temple - Gurtogg Bloodboil - Bloodboil');
