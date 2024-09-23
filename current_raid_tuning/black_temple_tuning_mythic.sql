@@ -123,9 +123,10 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 (564, 0, 0.75, 0.75, 1.39, 1.32, 1, 'The Black Temple');
 
 -- overriden and nerfed spells thanks to Jedbouk mostly
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 40314, 40175, 40175, 41303, 41360, 40827, 40869, 40870, 40871, 41001, 42005);
+DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 42052, 40314, 40175, 40175, 41303, 41360, 40827, 40869, 40870, 40871, 41001, 42005);
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
 (39878, 564, 1, 1, 'Black Temple - Najentus - Tidal Burst Effect'),
+(42052, 564, 1, 1, 'Black Temple - Supremus - Volcanic Geyser'),
 (40314, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Volley'),
 (40175, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Chains'),
 (40157, 564, 1, 1, 'Black Temple - Vengeful Spirit - Spirit Lance'),
