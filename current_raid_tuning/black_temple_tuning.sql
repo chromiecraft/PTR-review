@@ -119,7 +119,7 @@ UPDATE `creature_template` SET `HealthModifier`=1.5*0.91 WHERE `entry`=23411; --
 -- Overall buffs
 DELETE FROM `zone_difficulty_info` WHERE `MapID`= 564;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
-(564, 0, 0.75, 0.75, 1.25, 1.20, 1, 'The Black Temple');
+(564, 0, 0.75, 0.75, 1.20, 1.15, 1, 'The Black Temple');
 
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (39878, 42052, 40314, 40175, 40175, 41303, 41360, 40827, 40869, 40870, 40871, 41001, 42005, 41078, 41131);
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
