@@ -56,10 +56,10 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 
 -- here we can override specific spells to make sure we have no 1 shot mechanics
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (37036, 36132, 37120, 33031, 34121, 35181);
-INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(37036, 0, 0.20, 1, 'Tempest Keep - Master Engineer Telonicus Bomb Damage Nerf'),
-(36132, 0, 1, 1, 'Tempest Keep - Bloodwarder Marshal \'Whirlwind\''),
-(37120, 0, 1, 1, 'Tempest Keep - Tempest-Smith \'Fragmentation Bomb\''),
-(33031, 0, 1.15, 1, 'Tempest Keep - Solarian \'Arcane Missiles\''),
-(34121, 0, 1, 1, 'Tempest Keep - Al\'ar Flame Buffet'),
-(35181, 0, 2, 1, 'Tempest Keep - Al\'ar Dive Bomb spread damage');
+INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `ModeMask`, `Comment`) VALUES
+(37036, 550, 0.20, 1, 'Tempest Keep - Master Engineer Telonicus Bomb Damage Nerf'),
+(36132, 550, 1, 1, 'Tempest Keep - Bloodwarder Marshal \'Whirlwind\''),
+(37120, 550, 1, 1, 'Tempest Keep - Tempest-Smith \'Fragmentation Bomb\''),
+(33031, 550, 1.15, 1, 'Tempest Keep - Solarian \'Arcane Missiles\''),
+(34121, 550, 1, 1, 'Tempest Keep - Al\'ar Flame Buffet'),
+(35181, 550, 2, 1, 'Tempest Keep - Al\'ar Dive Bomb spread damage');
