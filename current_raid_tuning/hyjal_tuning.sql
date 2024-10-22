@@ -67,12 +67,3 @@ DELETE FROM `zone_difficulty_info` WHERE `MapID`= 534;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
 (534, 0, 0.85, 0.85, 1.30, 1.15, 1, 'The Battle For Mount Hyjal');
 
--- here we can override specific spells to make sure we have no 1 shot mechanics
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (31249, 31250, 31304, 31341, 31944,  31608);
-INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(31249, 0, 1, 1, 'The Battle For Mount Hyjal - Rage Winterchill - Icebolt'),
-(31250, 0, 1, 1, 'The Battle For Mount Hyjal - Rage Winterchill - Frost Nova'),
-(31304, 0, 1, 1, 'The Battle For Mount Hyjal - Azgalor infernal - Immolation'),
-(31341, 0, 1, 1, 'The Battle For Mount Hyjal - Azgalor - Rain of Fire (effect)'),
-(31944, 0, 1, 1, 'The Battle For Mount Hyjal - Archimonde - Doomfire'),
-(31608, 0, 1, 1, 'The Battle For Mount Hyjal - Abomination - Disease Cloud (tick debuff)');

@@ -57,7 +57,3 @@ UPDATE `creature_template` SET `HealthModifier`=17.5*1.7    WHERE `entry`=21225;
 DELETE FROM `zone_difficulty_info` WHERE `MapID`=548;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
 (548, 0, 0.75, 0.75, 1.20, 1.20, 1, 'Serpentshrine Cavern');
-
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellID` = 37675;
-INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(37641, 0, 1, 1, 'Serpentshrine Cavern - Leotheras - Whirlwind (dot)');

@@ -53,13 +53,3 @@ UPDATE `creature_template` SET `HealthModifier`=1.7*28 WHERE `entry`=20045; -- N
 DELETE FROM `zone_difficulty_info` WHERE `MapID`= 550;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
 (550, 0, 0.75, 0.75, 1.20, 1.20, 1, 'Tempest Keep');
-
--- here we can override specific spells to make sure we have no 1 shot mechanics
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (37036, 36132, 37120, 33031, 34121, 35181);
-INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(37036, 0, 0.20, 1, 'Tempest Keep - Master Engineer Telonicus Bomb Damage Nerf'),
-(36132, 0, 1, 1, 'Tempest Keep - Bloodwarder Marshal \'Whirlwind\''),
-(37120, 0, 1, 1, 'Tempest Keep - Tempest-Smith \'Fragmentation Bomb\''),
-(33031, 0, 1.15, 1, 'Tempest Keep - Solarian \'Arcane Missiles\''),
-(34121, 0, 1, 1, 'Tempest Keep - Al\'ar Flame Buffet'),
-(35181, 0, 2, 1, 'Tempest Keep - Al\'ar Dive Bomb spread damage');
