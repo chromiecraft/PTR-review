@@ -33,39 +33,39 @@ UPDATE `creature_template` SET `HealthModifier`=1*1 WHERE `entry`=23381; -- Tydo
 UPDATE `creature_template` SET `HealthModifier`=1*1 WHERE `entry`=23437; -- Indormi
 
 -- trash waves
-UPDATE `creature_template` SET `HealthModifier`=3.5*14 WHERE `entry`=17895; -- Ghoul
-UPDATE `creature_template` SET `HealthModifier`=3.5*17.5 WHERE `entry`=17898; -- Abomination
-UPDATE `creature_template` SET `HealthModifier`=3.5*15.4 WHERE `entry`=17899; -- Shadowy Necromancer
-UPDATE `creature_template` SET `HealthModifier`=3.5*17.5 WHERE `entry`=17897; -- Crypt Fiend
-UPDATE `creature_template` SET `HealthModifier`=3.5*10.5 WHERE `entry`=17905; -- Banshee
-UPDATE `creature_template` SET `HealthModifier`=3*12.6 WHERE `entry`=17906; -- Gargoyle
-UPDATE `creature_template` SET `HealthModifier`=4.5*31.5 WHERE `entry`=17907; -- Frost Wyrm
-UPDATE `creature_template` SET `HealthModifier`=4*12.6 WHERE `entry`=17908; -- Giant Infernal
-UPDATE `creature_template` SET `HealthModifier`=3.5*10.5 WHERE `entry`=17916; -- Fel Stalker
-UPDATE `creature_template` SET `HealthModifier`=4*3.5 WHERE `entry`=17902; -- Skeleton Invader
-UPDATE `creature_template` SET `HealthModifier`=4*3.5 WHERE `entry`=17903; -- Skeleton Mage
+UPDATE `creature_template` SET `HealthModifier`=2.7*14 WHERE `entry`=17895; -- Ghoul
+UPDATE `creature_template` SET `HealthModifier`=2.7*17.5 WHERE `entry`=17898; -- Abomination
+UPDATE `creature_template` SET `HealthModifier`=2.7*15.4 WHERE `entry`=17899; -- Shadowy Necromancer
+UPDATE `creature_template` SET `HealthModifier`=2.7*17.5 WHERE `entry`=17897; -- Crypt Fiend
+UPDATE `creature_template` SET `HealthModifier`=2.7*10.5 WHERE `entry`=17905; -- Banshee
+UPDATE `creature_template` SET `HealthModifier`=2.3*12.6 WHERE `entry`=17906; -- Gargoyle
+UPDATE `creature_template` SET `HealthModifier`=3.2*31.5 WHERE `entry`=17907; -- Frost Wyrm
+UPDATE `creature_template` SET `HealthModifier`=3*12.6 WHERE `entry`=17908; -- Giant Infernal
+UPDATE `creature_template` SET `HealthModifier`=2.7*10.5 WHERE `entry`=17916; -- Fel Stalker
+UPDATE `creature_template` SET `HealthModifier`=3*3.5 WHERE `entry`=17902; -- Skeleton Invader
+UPDATE `creature_template` SET `HealthModifier`=3*3.5 WHERE `entry`=17903; -- Skeleton Mage
 
 -- rage winterchill
-UPDATE `creature_template` SET `HealthModifier`=3.4*490 WHERE `entry`=17767; -- Rage Winterchill
+UPDATE `creature_template` SET `HealthModifier`=2.6*490 WHERE `entry`=17767; -- Rage Winterchill
 
 -- anetheron
-UPDATE `creature_template` SET `HealthModifier`=4*490 WHERE `entry`=17808; -- Anetheron
-UPDATE `creature_template` SET `HealthModifier`=3*21 WHERE `entry`=17818; -- Towering Infernal
+UPDATE `creature_template` SET `HealthModifier`=3*490 WHERE `entry`=17808; -- Anetheron
+UPDATE `creature_template` SET `HealthModifier`=2.3*21 WHERE `entry`=17818; -- Towering Infernal
 
 -- kaz'rogal
-UPDATE `creature_template` SET `HealthModifier`=2.7*490 WHERE `entry`=17888; -- Kaz'rogal
+UPDATE `creature_template` SET `HealthModifier`=2*490 WHERE `entry`=17888; -- Kaz'rogal
 
 -- azgalor
-UPDATE `creature_template` SET `HealthModifier`=3.3*490 WHERE `entry`=17842; -- Azgalor
-UPDATE `creature_template` SET `HealthModifier`=3*24.5 WHERE `entry`=17864; -- Lesser Doomguard
+UPDATE `creature_template` SET `HealthModifier`=2.4*490 WHERE `entry`=17842; -- Azgalor
+UPDATE `creature_template` SET `HealthModifier`=2.3*24.5 WHERE `entry`=17864; -- Lesser Doomguard
 
 -- archimonde
-UPDATE `creature_template` SET `HealthModifier`=4*525 WHERE `entry`=17968; -- Archimonde
+UPDATE `creature_template` SET `HealthModifier`=3*525 WHERE `entry`=17968; -- Archimonde
 
 -- Overall buffs (Updated with the values from the manual nerf)
 DELETE FROM `zone_difficulty_info` WHERE `MapID`= 534;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
-(534, 0, 0.85, 0.85, 1.35, 1.2, 1, 'The Battle For Mount Hyjal');
+(534, 0, 0.85, 0.85, 1.30, 1.15, 1, 'The Battle For Mount Hyjal');
 
 -- here we can override specific spells to make sure we have no 1 shot mechanics
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (31249, 31250, 31304, 31341, 31944,  31608);
