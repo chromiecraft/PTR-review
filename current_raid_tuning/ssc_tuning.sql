@@ -59,5 +59,5 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 (548, 0, 0.75, 0.75, 1.20, 1.20, 1, 'Serpentshrine Cavern');
 
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellID` = 37675;
-INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(37641, 0, 1, 1, 'Serpentshrine Cavern - Leotheras - Whirlwind (dot)');
+INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `ModeMask`, `Comment`) VALUES
+(37641, 548, 1, 1, 'Serpentshrine Cavern - Leotheras - Whirlwind (dot)');
