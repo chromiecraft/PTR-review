@@ -1,3 +1,8 @@
+-- DISCLAIMER
+-- THIS IS NO LONGER IN USE! REFER TO THE ZONE-DIFFICULTY MODULE INSTEAD!
+-- https://github.com/azerothcore/mod-zone-difficulty/blob/master/data/sql/db-world/zone_difficulty_mythicmode_creatureoverrides_bt.sql
+-- https://github.com/azerothcore/mod-zone-difficulty/blob/master/data/sql/db-world/zone_difficulty_info_content.sql
+
 -- High Warlord Naj'entus
 UPDATE `creature_template` SET `HealthModifier`=3.5*350 WHERE `entry`=22887; -- High Warlord Naj'entus
 
