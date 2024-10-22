@@ -54,6 +54,6 @@ UPDATE `creature_template` SET `HealthModifier`=17.5*1.7    WHERE `entry`=21224;
 UPDATE `creature_template` SET `HealthModifier`=17.5*1.7    WHERE `entry`=21226; -- Tidewalker Shaman
 UPDATE `creature_template` SET `HealthModifier`=17.5*1.7    WHERE `entry`=21225; -- Tidewalker Warrior
 
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellID` = 37675;
-INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `ModeMask`, `Comment`) VALUES
-(37641, 548, 1, 1, 'Serpentshrine Cavern - Leotheras - Whirlwind (dot)');
+DELETE FROM `zone_difficulty_info` WHERE `MapID`=548;
+INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
+(548, 0, 0.75, 0.75, 1.20, 1.20, 1, 'Serpentshrine Cavern');
