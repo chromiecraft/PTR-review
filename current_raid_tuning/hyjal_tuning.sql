@@ -69,10 +69,10 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 
 -- here we can override specific spells to make sure we have no 1 shot mechanics
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (31249, 31250, 31304, 31341, 31944,  31608);
-INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(31249, 0, 1, 1, 'The Battle For Mount Hyjal - Rage Winterchill - Icebolt'),
-(31250, 0, 1, 1, 'The Battle For Mount Hyjal - Rage Winterchill - Frost Nova'),
-(31304, 0, 1, 1, 'The Battle For Mount Hyjal - Azgalor infernal - Immolation'),
-(31341, 0, 1, 1, 'The Battle For Mount Hyjal - Azgalor - Rain of Fire (effect)'),
-(31944, 0, 1, 1, 'The Battle For Mount Hyjal - Archimonde - Doomfire'),
-(31608, 0, 1, 1, 'The Battle For Mount Hyjal - Abomination - Disease Cloud (tick debuff)');
+INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `ModeMask`, `Comment`) VALUES
+(31249, 534, 1, 1, 'The Battle For Mount Hyjal - Rage Winterchill - Icebolt'),
+(31250, 534, 1, 1, 'The Battle For Mount Hyjal - Rage Winterchill - Frost Nova'),
+(31304, 534, 1, 1, 'The Battle For Mount Hyjal - Azgalor infernal - Immolation'),
+(31341, 534, 1, 1, 'The Battle For Mount Hyjal - Azgalor - Rain of Fire (effect)'),
+(31944, 534, 1, 1, 'The Battle For Mount Hyjal - Archimonde - Doomfire'),
+(31608, 534, 1, 1, 'The Battle For Mount Hyjal - Abomination - Disease Cloud (tick debuff)');
