@@ -28,7 +28,7 @@ body:
     id: boss-mech-1
     attributes:
       label: Mechanics comments on Nalorakk
-      description: Give us your overall comments on the mechanics that Al'ar had. Make sure to mention spells that are broken, linked packs missing, etc.
+      description: Give us your overall comments on the mechanics that Nalorakk had. Make sure to mention spells that are broken, linked packs missing, etc.
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -36,7 +36,7 @@ body:
     id: boss-tune-1
     attributes:
       label: Tuning comments on Nalorakk
-      description: Give us your overall comments on the tuning that Al'ar had. Make sure to mention what spells can be nerfed/buffed
+      description: Give us your overall comments on the tuning that Nalorakk had. Make sure to mention what spells can be nerfed/buffed
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -44,7 +44,7 @@ body:
     id: boss-mech-2
     attributes:
       label: Mechanics comments on Akil'zon
-      description: Give us your overall comments on the mechanics that Solarian had. Make sure to mention spells that are broken, linked packs missing, etc.
+      description: Give us your overall comments on the mechanics that Akil'zon had. Make sure to mention spells that are broken, linked packs missing, etc.
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -52,7 +52,7 @@ body:
     id: boss-tune-2
     attributes:
       label: Tuning comments on Akil'zon
-      description: Give us your overall comments on the tuning that Solarian had. Make sure to mention what spells can be nerfed/buffed
+      description: Give us your overall comments on the tuning that Akil'zon had. Make sure to mention what spells can be nerfed/buffed
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -60,7 +60,7 @@ body:
     id: boss-mech-3
     attributes:
       label: Mechanics comments on Jan'alai
-      description: Give us your overall comments on the mechanics that Void Reaver had. Make sure to mention spells that are broken, linked packs missing, etc.
+      description: Give us your overall comments on the mechanics that Jan'alai had. Make sure to mention spells that are broken, linked packs missing, etc.
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -68,7 +68,7 @@ body:
     id: boss-tune-3
     attributes:
       label: Tuning comments on Jan'alai
-      description: Give us your overall comments on the tuning that Void Reaver had. Make sure to mention what spells can be nerfed/buffed
+      description: Give us your overall comments on the tuning that Jan'alai had. Make sure to mention what spells can be nerfed/buffed
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -76,7 +76,7 @@ body:
     id: boss-mech-4
     attributes:
       label: Mechanics comments on Halazzi
-      description: Give us your overall comments on the mechanics that Kael'thas had. Make sure to mention spells that are broken, linked packs missing, etc.
+      description: Give us your overall comments on the mechanics that Halazzi had. Make sure to mention spells that are broken, linked packs missing, etc.
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -84,7 +84,7 @@ body:
     id: boss-tune-4
     attributes:
       label: Tuning comments on Halazzi
-      description: Give us your overall comments on the tuning that Kael'thas had. Make sure to mention what spells can be nerfed/buffed
+      description: Give us your overall comments on the tuning that Halazzi had. Make sure to mention what spells can be nerfed/buffed
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -92,7 +92,7 @@ body:
     id: boss-mech-5
     attributes:
       label: Mechanics comments on Hex Lord Malacrass
-      description: Give us your overall comments on the mechanics that Kael'thas had. Make sure to mention spells that are broken, linked packs missing, etc.
+      description: Give us your overall comments on the mechanics that Hex Lord Malacrass had. Make sure to mention spells that are broken, linked packs missing, etc.
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -100,7 +100,7 @@ body:
     id: boss-tune-5
     attributes:
       label: Tuning comments on Hex Lord Malacrass
-      description: Give us your overall comments on the tuning that Kael'thas had. Make sure to mention what spells can be nerfed/buffed
+      description: Give us your overall comments on the tuning that Hex Lord Malacrass had. Make sure to mention what spells can be nerfed/buffed
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -108,7 +108,7 @@ body:
     id: boss-mech-6
     attributes:
       label: Mechanics comments on Zul'jin
-      description: Give us your overall comments on the mechanics that Kael'thas had. Make sure to mention spells that are broken, linked packs missing, etc.
+      description: Give us your overall comments on the mechanics that Zul'jin had. Make sure to mention spells that are broken, linked packs missing, etc.
       placeholder: Tell us what you see!
     validations:
       required: false
@@ -116,7 +116,7 @@ body:
     id: boss-tune-6
     attributes:
       label: Tuning comments on Zul'jin
-      description: Give us your overall comments on the tuning that Kael'thas had. Make sure to mention what spells can be nerfed/buffed
+      description: Give us your overall comments on the tuning that Zul'jin had. Make sure to mention what spells can be nerfed/buffed
       placeholder: Tell us what you see!
     validations:
       required: false
