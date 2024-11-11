@@ -1,0 +1,170 @@
+name: Zul'Aman raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - Zul'Aman]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "tuning", "zul", "aman"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-1
+    attributes:
+      label: Mechanics comments on Nalorakk
+      description: Give us your overall comments on the mechanics that Al'ar had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-1
+    attributes:
+      label: Tuning comments on Nalorakk
+      description: Give us your overall comments on the tuning that Al'ar had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-2
+    attributes:
+      label: Mechanics comments on Akil'zon
+      description: Give us your overall comments on the mechanics that Solarian had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-2
+    attributes:
+      label: Tuning comments on Akil'zon
+      description: Give us your overall comments on the tuning that Solarian had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-3
+    attributes:
+      label: Mechanics comments on Jan'alai
+      description: Give us your overall comments on the mechanics that Void Reaver had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-3
+    attributes:
+      label: Tuning comments on Jan'alai
+      description: Give us your overall comments on the tuning that Void Reaver had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-4
+    attributes:
+      label: Mechanics comments on Halazzi
+      description: Give us your overall comments on the mechanics that Kael'thas had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-4
+    attributes:
+      label: Tuning comments on Halazzi
+      description: Give us your overall comments on the tuning that Kael'thas had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-5
+    attributes:
+      label: Mechanics comments on Hex Lord Malacrass
+      description: Give us your overall comments on the mechanics that Kael'thas had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-5
+    attributes:
+      label: Tuning comments on Hex Lord Malacrass
+      description: Give us your overall comments on the tuning that Kael'thas had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-6
+    attributes:
+      label: Mechanics comments on Zul'jin
+      description: Give us your overall comments on the mechanics that Kael'thas had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-6
+    attributes:
+      label: Tuning comments on Zul'jin
+      description: Give us your overall comments on the tuning that Kael'thas had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
