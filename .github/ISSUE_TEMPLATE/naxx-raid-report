@@ -1,0 +1,361 @@
+name: Naxxramas raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - Naxxramas]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "tuning", "naxxramas"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #              SPIDER WING BOSSES                 #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-anub
+    attributes:
+      label: Mechanics comments on Anub'Rekhan
+      description: Give us your overall comments on the mechanics that Anub'Rekhan had.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-anub
+    attributes:
+      label: Tuning comments on Anub'Rekhan
+      description: Give us your overall comments on tuning for Anub'Rekhan.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-faerlina
+    attributes:
+      label: Mechanics comments on Grand Widow Faerlina
+      description: Give us your overall comments on the mechanics that Grand Widow Faerlina had.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-faerlina
+    attributes:
+      label: Tuning comments on Grand Widow Faerlina
+      description: Give us your overall comments on tuning for Grand Widow Faerlina.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-maexxna
+    attributes:
+      label: Mechanics comments on Maexxna
+      description: Give us your overall comments on the mechanics that Maexxna had.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-maexxna
+    attributes:
+      label: Tuning comments on Maexxna
+      description: Give us your overall comments on tuning for Maexxna.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+
+  ###################################################
+  #                PLAGUE WING BOSSES               #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-noth
+    attributes:
+      label: Mechanics comments on Noth the Plaguebringer
+      description: Give us your overall comments on Noth's mechanics.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-noth
+    attributes:
+      label: Tuning comments on Noth the Plaguebringer
+      description: Give us your overall comments on tuning for Noth.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-heigan
+    attributes:
+      label: Mechanics comments on Heigan the Unclean
+      description: Give us your comments on mechanics including dance phase issues, spell bugs, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-heigan
+    attributes:
+      label: Tuning comments on Heigan the Unclean
+      description: Give us your overall comments on tuning for Heigan.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-lotheb
+    attributes:
+      label: Mechanics comments on Loatheb
+      description: Give us your overall comments on the mechanics that Loatheb had.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-lotheb
+    attributes:
+      label: Tuning comments on Loatheb
+      description: Give us your overall comments on tuning for Loatheb.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+
+  ###################################################
+  #                MILITARY WING BOSSES             #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-raz
+    attributes:
+      label: Mechanics comments on Instructor Razuvious
+      description: Give us your comments on the mechanics, including MC mechanics, taunt bugs, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-raz
+    attributes:
+      label: Tuning comments on Instructor Razuvious
+      description: Give us your tuning feedback for Razuvious.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-gothik
+    attributes:
+      label: Mechanics comments on Gothik the Harvester
+      description: Give us overall comments on both sides of the encounter.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-gothik
+    attributes:
+      label: Tuning comments on Gothik the Harvester
+      description: Give us tuning feedback for Gothik.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-4h
+    attributes:
+      label: Mechanics comments on The Four Horsemen
+      description: Give comments on mechanics, mark issues, movement bugs, tank swaps, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-4h
+    attributes:
+      label: Tuning comments on The Four Horsemen
+      description: Give your tuning feedback for The Four Horsemen.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+
+  ###################################################
+  #                CONSTRUCT WING BOSSES            #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-patchwerk
+    attributes:
+      label: Mechanics comments on Patchwerk
+      description: Give us your comments on Patchwerk's mechanics (Hateful Strike issues, etc.)
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-patchwerk
+    attributes:
+      label: Tuning comments on Patchwerk
+      description: Give your tuning comments for Patchwerk.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-grobbulus
+    attributes:
+      label: Mechanics comments on Grobbulus
+      description: Give us your comments on mechanics (clouds, injections, etc.)
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-grobbulus
+    attributes:
+      label: Tuning comments on Grobbulus
+      description: Give your tuning feedback for Grobbulus.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-gluth
+    attributes:
+      label: Mechanics comments on Gluth
+      description: Give comments on mechanics (zombie chow behaviour, slow effects, etc.)
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-gluth
+    attributes:
+      label: Tuning comments on Gluth
+      description: Give tuning feedback for Gluth.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-thaddius
+    attributes:
+      label: Mechanics comments on Thaddius
+      description: Give us comments on mechanics (polarity shifts, add behaviour, etc.)
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-thaddius
+    attributes:
+      label: Tuning comments on Thaddius
+      description: Give tuning feedback for Thaddius.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+
+  ###################################################
+  #                FINAL ENCOUNTERS                 #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-sapphiron
+    attributes:
+      label: Mechanics comments on Sapphiron
+      description: Give us your comments on mechanics (blizzards, ice block behaviour, aura issues, etc.)
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-sapphiron
+    attributes:
+      label: Tuning comments on Sapphiron
+      description: Give tuning feedback for Sapphiron.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-kelthuzad
+    attributes:
+      label: Mechanics comments on Kel'Thuzad
+      description: Give us your comments on mechanics, add waves, CC behaviour, Frost Blast issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-kelthuzad
+    attributes:
+      label: Tuning comments on Kel'Thuzad
+      description: Give tuning feedback for Kel'Thuzad.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #                OVERALL RAID FEEDBACK            #
+  ###################################################
+
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
