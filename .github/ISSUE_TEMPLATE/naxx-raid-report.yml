@@ -1,13 +1,14 @@
 name: Naxxramas raid report
 description: File a PTR test raid report
 title: "[PTR Raid report - Naxxramas]: YOUR_GUILD_NAME_HERE"
-labels: ["raid", "PTR", "tuning", "naxxramas"]
+labels: ["raid", "PTR", "naxxramas"]
 projects: ["master"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this raid report!
+        IMPORTANT: Tuning is not applied yet! Leave the tuning fields blank.
   - type: textarea
     id: t-mech
     attributes:
