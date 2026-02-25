@@ -1,0 +1,341 @@
+name: Ulduar raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - Ulduar]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "ulduar"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #                THE SIEGE OF ULDUAR              #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-flame-leviathan
+    attributes:
+      label: Mechanics comments on Flame Leviathan
+      description: Give us your overall comments on the mechanics that Flame Leviathan had. Make sure to mention vehicle issues, tower interactions, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-flame-leviathan
+    attributes:
+      label: Tuning comments on Flame Leviathan
+      description: Give us your overall comments on the tuning that Flame Leviathan had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-ignis
+    attributes:
+      label: Mechanics comments on Ignis the Furnace Master
+      description: Give us your overall comments on the mechanics that Ignis had. Make sure to mention construct behaviour, slag pot issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-ignis
+    attributes:
+      label: Tuning comments on Ignis the Furnace Master
+      description: Give us your overall comments on the tuning that Ignis had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-razorscale
+    attributes:
+      label: Mechanics comments on Razorscale
+      description: Give us your overall comments on the mechanics that Razorscale had. Make sure to mention harpoon behaviour, add spawns, ground phase issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-razorscale
+    attributes:
+      label: Tuning comments on Razorscale
+      description: Give us your overall comments on the tuning that Razorscale had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-xt002
+    attributes:
+      label: Mechanics comments on XT-002 Deconstructor
+      description: Give us your overall comments on the mechanics that XT-002 had. Make sure to mention heart phase, add behaviour, tantrum, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-xt002
+    attributes:
+      label: Tuning comments on XT-002 Deconstructor
+      description: Give us your overall comments on the tuning that XT-002 had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #               THE ANTECHAMBER OF ULDUAR         #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-assembly
+    attributes:
+      label: Mechanics comments on Assembly of Iron
+      description: Give us your overall comments on the mechanics that Assembly of Iron had. Make sure to mention Steelbreaker, Molgeim, Brundir interactions, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-assembly
+    attributes:
+      label: Tuning comments on Assembly of Iron
+      description: Give us your overall comments on the tuning that Assembly of Iron had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-kologarn
+    attributes:
+      label: Mechanics comments on Kologarn
+      description: Give us your overall comments on the mechanics that Kologarn had. Make sure to mention arm behaviour, eye beam issues, rubble adds, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-kologarn
+    attributes:
+      label: Tuning comments on Kologarn
+      description: Give us your overall comments on the tuning that Kologarn had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-auriaya
+    attributes:
+      label: Mechanics comments on Auriaya
+      description: Give us your overall comments on the mechanics that Auriaya had. Make sure to mention Sanctum Sentry behaviour, Fear issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-auriaya
+    attributes:
+      label: Tuning comments on Auriaya
+      description: Give us your overall comments on the tuning that Auriaya had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #                THE KEEPERS OF ULDUAR            #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-hodir
+    attributes:
+      label: Mechanics comments on Hodir
+      description: Give us your overall comments on the mechanics that Hodir had. Make sure to mention NPC interactions, freeze behaviour, toasty fire, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-hodir
+    attributes:
+      label: Tuning comments on Hodir
+      description: Give us your overall comments on the tuning that Hodir had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-thorim
+    attributes:
+      label: Mechanics comments on Thorim
+      description: Give us your overall comments on the mechanics that Thorim had. Make sure to mention arena/tunnel split, add waves, hard mode issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-thorim
+    attributes:
+      label: Tuning comments on Thorim
+      description: Give us your overall comments on the tuning that Thorim had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-freya
+    attributes:
+      label: Mechanics comments on Freya
+      description: Give us your overall comments on the mechanics that Freya had. Make sure to mention elder interactions, add behaviour, nature mechanics, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-freya
+    attributes:
+      label: Tuning comments on Freya
+      description: Give us your overall comments on the tuning that Freya had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  - type: textarea
+    id: boss-mech-mimiron
+    attributes:
+      label: Mechanics comments on Mimiron
+      description: Give us your overall comments on the mechanics that Mimiron had. Make sure to mention phase transitions, VX-001, aerial unit, hard mode issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-mimiron
+    attributes:
+      label: Tuning comments on Mimiron
+      description: Give us your overall comments on the tuning that Mimiron had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #                 THE DESCENT INTO MADNESS        #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-vezax
+    attributes:
+      label: Mechanics comments on General Vezax
+      description: Give us your overall comments on the mechanics that General Vezax had. Make sure to mention mana mechanics, saronite vapours, hard mode issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-vezax
+    attributes:
+      label: Tuning comments on General Vezax
+      description: Give us your overall comments on the tuning that General Vezax had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #                    YOGG-SARON                   #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-yogg
+    attributes:
+      label: Mechanics comments on Yogg-Saron
+      description: Give us your overall comments on the mechanics that Yogg-Saron had. Make sure to mention phase transitions, brain room events, tentacle behaviour, keeper assistance, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-yogg
+    attributes:
+      label: Tuning comments on Yogg-Saron
+      description: Give us your overall comments on the tuning that Yogg-Saron had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #                ALGALON THE OBSERVER             #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-algalon
+    attributes:
+      label: Mechanics comments on Algalon the Observer
+      description: Give us your overall comments on the mechanics that Algalon had. Make sure to mention black hole behaviour, phase punch, big bang, constellation issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-tune-algalon
+    attributes:
+      label: Tuning comments on Algalon the Observer
+      description: Give us your overall comments on the tuning that Algalon had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #                OVERALL RAID FEEDBACK            #
+  ###################################################
+
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
