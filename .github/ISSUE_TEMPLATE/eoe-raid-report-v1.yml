@@ -17,6 +17,7 @@ body:
     validations:
       required: false
   - type: textarea
+  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -30,6 +31,7 @@ body:
   ###################################################
 
   - type: textarea
+  - type: textarea
     id: boss-mech-1
     attributes:
       label: Mechanics comments on Malygos
@@ -38,18 +40,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-1
-    attributes:
-      label: Tuning comments on Malygos
-      description: Give us your overall comments on the tuning that Malygos had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #                OVERALL RAID FEEDBACK            #
-  ###################################################
-
   - type: textarea
     id: overall-mech
     attributes:
@@ -58,6 +48,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -82,6 +73,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:

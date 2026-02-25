@@ -17,6 +17,7 @@ body:
     validations:
       required: false
   - type: textarea
+  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -30,6 +31,7 @@ body:
   ###################################################
 
   - type: textarea
+  - type: textarea
     id: boss-mech-marrowgar
     attributes:
       label: Mechanics comments on Lord Marrowgar
@@ -38,14 +40,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-marrowgar
-    attributes:
-      label: Tuning comments on Lord Marrowgar
-      description: Give us your overall comments on the tuning that Lord Marrowgar had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-deathwhisper
     attributes:
@@ -55,14 +49,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-deathwhisper
-    attributes:
-      label: Tuning comments on Lady Deathwhisper
-      description: Give us your overall comments on the tuning that Lady Deathwhisper had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-gunship
     attributes:
@@ -72,14 +58,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-gunship
-    attributes:
-      label: Tuning comments on Gunship Battle
-      description: Give us your overall comments on the tuning that the Gunship Battle had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-saurfang
     attributes:
@@ -89,18 +67,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-saurfang
-    attributes:
-      label: Tuning comments on Deathbringer Saurfang
-      description: Give us your overall comments on the tuning that Deathbringer Saurfang had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #                  THE PLAGUEWORKS               #
-  ###################################################
-
   - type: textarea
     id: boss-mech-festergut
     attributes:
@@ -110,14 +76,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-festergut
-    attributes:
-      label: Tuning comments on Festergut
-      description: Give us your overall comments on the tuning that Festergut had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-rotface
     attributes:
@@ -127,14 +85,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-rotface
-    attributes:
-      label: Tuning comments on Rotface
-      description: Give us your overall comments on the tuning that Rotface had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-putricide
     attributes:
@@ -144,18 +94,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-putricide
-    attributes:
-      label: Tuning comments on Professor Putricide
-      description: Give us your overall comments on the tuning that Professor Putricide had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #               THE CRIMSON HALLS                 #
-  ###################################################
-
   - type: textarea
     id: boss-mech-princes
     attributes:
@@ -165,14 +103,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-princes
-    attributes:
-      label: Tuning comments on Blood Prince Council
-      description: Give us your overall comments on the tuning that the Blood Prince Council had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-lanathel
     attributes:
@@ -182,18 +112,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-lanathel
-    attributes:
-      label: Tuning comments on Blood-Queen Lana'thel
-      description: Give us your overall comments on the tuning that Blood-Queen Lana'thel had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #              THE FROSTWING HALLS                #
-  ###################################################
-
   - type: textarea
     id: boss-mech-valithria
     attributes:
@@ -203,14 +121,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-valithria
-    attributes:
-      label: Tuning comments on Valithria Dreamwalker
-      description: Give us your overall comments on the tuning that Valithria had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-sindragosa
     attributes:
@@ -220,18 +130,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-sindragosa
-    attributes:
-      label: Tuning comments on Sindragosa
-      description: Give us your overall comments on the tuning that Sindragosa had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #                  THE FROZEN THRONE              #
-  ###################################################
-
   - type: textarea
     id: boss-mech-lich-king
     attributes:
@@ -241,18 +139,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-lich-king
-    attributes:
-      label: Tuning comments on The Lich King
-      description: Give us your overall comments on the tuning that The Lich King had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #                OVERALL RAID FEEDBACK            #
-  ###################################################
-
   - type: textarea
     id: overall-mech
     attributes:
@@ -261,6 +147,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -285,6 +172,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:

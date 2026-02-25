@@ -17,6 +17,7 @@ body:
     validations:
       required: false
   - type: textarea
+  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -30,6 +31,7 @@ body:
   ###################################################
 
   - type: textarea
+  - type: textarea
     id: boss-mech-beasts
     attributes:
       label: Mechanics comments on The Beasts of Northrend
@@ -38,14 +40,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-beasts
-    attributes:
-      label: Tuning comments on The Beasts of Northrend
-      description: Give us your overall comments on the tuning that the encounter had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-jaraxxus
     attributes:
@@ -55,14 +49,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-jaraxxus
-    attributes:
-      label: Tuning comments on Lord Jaraxxus
-      description: Give us your overall comments on the tuning that Lord Jaraxxus had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-faction-champs
     attributes:
@@ -72,14 +58,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-faction-champs
-    attributes:
-      label: Tuning comments on Faction Champions
-      description: Give us your overall comments on the tuning that Faction Champions had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-twins
     attributes:
@@ -89,14 +67,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-twins
-    attributes:
-      label: Tuning comments on Twin Val'kyr
-      description: Give us your overall comments on the tuning that Twin Val'kyr had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-anub
     attributes:
@@ -106,18 +76,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-anub
-    attributes:
-      label: Tuning comments on Anub'arak
-      description: Give us your overall comments on the tuning that Anub'arak had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #                OVERALL RAID FEEDBACK            #
-  ###################################################
-
   - type: textarea
     id: overall-mech
     attributes:
@@ -126,6 +84,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -150,6 +109,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:

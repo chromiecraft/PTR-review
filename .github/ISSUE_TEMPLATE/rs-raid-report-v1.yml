@@ -17,6 +17,7 @@ body:
     validations:
       required: false
   - type: textarea
+  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -30,6 +31,7 @@ body:
   ###################################################
 
   - type: textarea
+  - type: textarea
     id: boss-mech-saviana
     attributes:
       label: Mechanics comments on Saviana Ragefire
@@ -38,14 +40,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-saviana
-    attributes:
-      label: Tuning comments on Saviana Ragefire
-      description: Give us your overall comments on the tuning that Saviana Ragefire had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-ragefire
     attributes:
@@ -55,14 +49,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-ragefire
-    attributes:
-      label: Tuning comments on Baltharus the Warborn
-      description: Give us your overall comments on the tuning that Baltharus the Warborn had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
   - type: textarea
     id: boss-mech-general
     attributes:
@@ -72,18 +58,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-general
-    attributes:
-      label: Tuning comments on General Zarithrian
-      description: Give us your overall comments on the tuning that General Zarithrian had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #                    MAIN BOSS                    #
-  ###################################################
-
   - type: textarea
     id: boss-mech-halion
     attributes:
@@ -93,18 +67,6 @@ body:
     validations:
       required: false
   - type: textarea
-    id: boss-tune-halion
-    attributes:
-      label: Tuning comments on Halion
-      description: Give us your overall comments on the tuning that Halion had. Make sure to mention what spells can be nerfed/buffed
-      placeholder: Tell us what you see!
-    validations:
-      required: false
-
-  ###################################################
-  #                OVERALL RAID FEEDBACK            #
-  ###################################################
-
   - type: textarea
     id: overall-mech
     attributes:
@@ -113,6 +75,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -137,6 +100,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:
