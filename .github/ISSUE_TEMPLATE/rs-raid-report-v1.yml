@@ -17,7 +17,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -31,7 +30,6 @@ body:
   ###################################################
 
   - type: textarea
-  - type: textarea
     id: boss-mech-saviana
     attributes:
       label: Mechanics comments on Saviana Ragefire
@@ -39,7 +37,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-ragefire
     attributes:
@@ -49,7 +46,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-general
     attributes:
       label: Mechanics comments on General Zarithrian
@@ -57,7 +53,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-halion
     attributes:
@@ -67,7 +62,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: overall-mech
     attributes:
       label: Overall comments on raid mechanics
@@ -75,7 +69,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -100,7 +93,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:

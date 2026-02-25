@@ -17,7 +17,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -31,7 +30,6 @@ body:
   ###################################################
 
   - type: textarea
-  - type: textarea
     id: boss-mech-flame-leviathan
     attributes:
       label: Mechanics comments on Flame Leviathan
@@ -39,7 +37,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-ignis
     attributes:
@@ -49,7 +46,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-razorscale
     attributes:
       label: Mechanics comments on Razorscale
@@ -57,7 +53,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-xt002
     attributes:
@@ -67,7 +62,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-assembly
     attributes:
       label: Mechanics comments on Assembly of Iron
@@ -75,7 +69,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-kologarn
     attributes:
@@ -85,7 +78,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-auriaya
     attributes:
       label: Mechanics comments on Auriaya
@@ -93,7 +85,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-hodir
     attributes:
@@ -103,7 +94,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-thorim
     attributes:
       label: Mechanics comments on Thorim
@@ -111,7 +101,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-freya
     attributes:
@@ -121,7 +110,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-mimiron
     attributes:
       label: Mechanics comments on Mimiron
@@ -129,7 +117,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-vezax
     attributes:
@@ -139,7 +126,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-yogg
     attributes:
       label: Mechanics comments on Yogg-Saron
@@ -147,7 +133,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-algalon
     attributes:
@@ -157,7 +142,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: overall-mech
     attributes:
       label: Overall comments on raid mechanics
@@ -165,7 +149,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -190,7 +173,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:

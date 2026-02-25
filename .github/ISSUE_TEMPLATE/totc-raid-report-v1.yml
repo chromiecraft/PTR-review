@@ -17,7 +17,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -31,7 +30,6 @@ body:
   ###################################################
 
   - type: textarea
-  - type: textarea
     id: boss-mech-beasts
     attributes:
       label: Mechanics comments on The Beasts of Northrend
@@ -39,7 +37,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-jaraxxus
     attributes:
@@ -49,7 +46,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-faction-champs
     attributes:
       label: Mechanics comments on Faction Champions
@@ -57,7 +53,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-twins
     attributes:
@@ -67,7 +62,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-anub
     attributes:
       label: Mechanics comments on Anub'arak
@@ -76,7 +70,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: overall-mech
     attributes:
       label: Overall comments on raid mechanics
@@ -84,7 +77,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -109,7 +101,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:

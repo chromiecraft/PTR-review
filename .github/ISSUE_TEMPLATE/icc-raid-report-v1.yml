@@ -17,7 +17,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -31,7 +30,6 @@ body:
   ###################################################
 
   - type: textarea
-  - type: textarea
     id: boss-mech-marrowgar
     attributes:
       label: Mechanics comments on Lord Marrowgar
@@ -39,7 +37,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-deathwhisper
     attributes:
@@ -49,7 +46,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-gunship
     attributes:
       label: Mechanics comments on Gunship Battle
@@ -57,7 +53,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-saurfang
     attributes:
@@ -67,7 +62,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-festergut
     attributes:
       label: Mechanics comments on Festergut
@@ -75,7 +69,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-rotface
     attributes:
@@ -85,7 +78,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-putricide
     attributes:
       label: Mechanics comments on Professor Putricide
@@ -93,7 +85,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-princes
     attributes:
@@ -103,7 +94,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-lanathel
     attributes:
       label: Mechanics comments on Blood-Queen Lana'thel
@@ -111,7 +101,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-valithria
     attributes:
@@ -121,7 +110,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: boss-mech-sindragosa
     attributes:
       label: Mechanics comments on Sindragosa
@@ -129,7 +117,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: false
-  - type: textarea
   - type: textarea
     id: boss-mech-lich-king
     attributes:
@@ -139,7 +126,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: overall-mech
     attributes:
       label: Overall comments on raid mechanics
@@ -147,7 +133,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -172,7 +157,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:

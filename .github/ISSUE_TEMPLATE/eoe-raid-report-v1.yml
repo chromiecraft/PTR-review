@@ -17,7 +17,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: t-tune
     attributes:
       label: Tuning comments on trash mobs
@@ -31,7 +30,6 @@ body:
   ###################################################
 
   - type: textarea
-  - type: textarea
     id: boss-mech-1
     attributes:
       label: Mechanics comments on Malygos
@@ -40,7 +38,6 @@ body:
     validations:
       required: false
   - type: textarea
-  - type: textarea
     id: overall-mech
     attributes:
       label: Overall comments on raid mechanics
@@ -48,7 +45,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-mech-drop
     attributes:
@@ -73,7 +69,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
   - type: dropdown
     id: overall-tune-drop
     attributes:
