@@ -1,0 +1,111 @@
+name: Obsidian Sanctum raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - Obsidian Sanctum]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "obsidian sanctum"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #               MINI-BOSSES (DRAKES)              #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-tenebron
+    attributes:
+      label: Mechanics comments on Tenebron
+      description: Give us your overall comments on the mechanics that Tenebron had. Make sure to mention spells that are broken, portal/add behaviour issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-shadron
+    attributes:
+      label: Mechanics comments on Shadron
+      description: Give us your overall comments on the mechanics that Shadron had. Make sure to mention spells that are broken, portal/add behaviour issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-vesperon
+    attributes:
+      label: Mechanics comments on Vesperon
+      description: Give us your overall comments on the mechanics that Vesperon had. Make sure to mention spells that are broken, portal/add behaviour issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-sartharion
+    attributes:
+      label: Mechanics comments on Sartharion
+      description: Give us your overall comments on the mechanics that Sartharion had. Make sure to mention wave behaviour, lava wall issues, drake interactions, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10

@@ -1,0 +1,111 @@
+name: Ruby Sanctum raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - Ruby Sanctum]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "ruby sanctum"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #               MINI-BOSSES (TWILIGHT)            #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-saviana
+    attributes:
+      label: Mechanics comments on Saviana Ragefire
+      description: Give us your overall comments on the mechanics that Saviana Ragefire had. Make sure to mention enrage behaviour, conflagration issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-ragefire
+    attributes:
+      label: Mechanics comments on Baltharus the Warborn
+      description: Give us your overall comments on the mechanics that Baltharus the Warborn had. Make sure to mention clone behaviour, enervating brand, blade tempest issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-general
+    attributes:
+      label: Mechanics comments on General Zarithrian
+      description: Give us your overall comments on the mechanics that General Zarithrian had. Make sure to mention add spawning, cleave behaviour, onyx flames, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-halion
+    attributes:
+      label: Mechanics comments on Halion
+      description: Give us your overall comments on the mechanics that Halion had. Make sure to mention phase transitions, twilight realm mechanics, cutter beam behaviour, combustion/consumption interactions, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10

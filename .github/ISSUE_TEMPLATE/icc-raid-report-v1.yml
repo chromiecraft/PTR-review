@@ -1,0 +1,175 @@
+name: Icecrown Citadel raid report
+description: File a PTR test raid report
+title: "[PTR Raid report - Icecrown Citadel]: YOUR_GUILD_NAME_HERE"
+labels: ["raid", "PTR", "icecrown citadel"]
+projects: ["master"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+
+  ###################################################
+  #              THE LOWER SPIRE                    #
+  ###################################################
+
+  - type: textarea
+    id: boss-mech-marrowgar
+    attributes:
+      label: Mechanics comments on Lord Marrowgar
+      description: Give us your overall comments on the mechanics that Lord Marrowgar had. Make sure to mention bone spike behaviour, coldflame, whirlwind issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-deathwhisper
+    attributes:
+      label: Mechanics comments on Lady Deathwhisper
+      description: Give us your overall comments on the mechanics that Lady Deathwhisper had. Make sure to mention mana shield, add waves, mind control issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-gunship
+    attributes:
+      label: Mechanics comments on Gunship Battle
+      description: Give us your overall comments on the mechanics that the Gunship Battle had. Make sure to mention cannon behaviour, boarding issues, rocket pack mechanics, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-saurfang
+    attributes:
+      label: Mechanics comments on Deathbringer Saurfang
+      description: Give us your overall comments on the mechanics that Deathbringer Saurfang had. Make sure to mention mark of the fallen champion, blood beast behaviour, boiling blood, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-festergut
+    attributes:
+      label: Mechanics comments on Festergut
+      description: Give us your overall comments on the mechanics that Festergut had. Make sure to mention gas spore behaviour, inhale/exhale patterns, inoculated stacks, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-rotface
+    attributes:
+      label: Mechanics comments on Rotface
+      description: Give us your overall comments on the mechanics that Rotface had. Make sure to mention ooze spawning/merging, infection mechanics, slime spray issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-putricide
+    attributes:
+      label: Mechanics comments on Professor Putricide
+      description: Give us your overall comments on the mechanics that Professor Putricide had. Make sure to mention phase transitions, ooze/gas behaviour, unbound plague, tear gas issues, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-princes
+    attributes:
+      label: Mechanics comments on Blood Prince Council
+      description: Give us your overall comments on the mechanics that the Blood Prince Council had. Make sure to mention kinetic/empowered orb interactions, shadow prison, shock vortex, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-lanathel
+    attributes:
+      label: Mechanics comments on Blood-Queen Lana'thel
+      description: Give us your overall comments on the mechanics that Blood-Queen Lana'thel had. Make sure to mention bite order/spread, air phase behaviour, pact of the darkfallen, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-valithria
+    attributes:
+      label: Mechanics comments on Valithria Dreamwalker
+      description: Give us your overall comments on the mechanics that Valithria had. Make sure to mention portal/dream mechanics, add waves, healing mechanics, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-sindragosa
+    attributes:
+      label: Mechanics comments on Sindragosa
+      description: Give us your overall comments on the mechanics that Sindragosa had. Make sure to mention air/ground phase transitions, frost bomb behaviour, ice tomb, mystic buffet stacks, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: boss-mech-lich-king
+    attributes:
+      label: Mechanics comments on The Lich King
+      description: Give us your overall comments on the mechanics that The Lich King had. Make sure to mention phase transitions, Necrotic Plague, defile, soul harvesting, Remorseless Winter, Harvest Soul / Frostmourne room, etc.
+      placeholder: Tell us what you see!
+    validations:
+      required: false
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
